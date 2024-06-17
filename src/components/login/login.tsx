@@ -9,21 +9,21 @@ export interface LoginProps {
 
 export const Login: React.FC<LoginProps> = ({ className = "", buttonText }) => (
   <form className="form">
-    <br />
     <label></label>
+    <label>Username</label>
+    <br />
     <input type="text" />
-    <img
-      className="img"
-      style={{ borderRadius: "10px" }}
-      src={PexelsRrrinna2776108Jpg}
-    />
     <br />
     Password
     <br />
     <input type="text" />
     <br />
-    <label>Username</label>
     <br />
     <input type="submit" value={buttonText} />
+    <img
+      className="img"
+      style={{ borderRadius: "10px" }}
+      src={PexelsRrrinna2776108Jpg}
+    />
   </form>
 );
