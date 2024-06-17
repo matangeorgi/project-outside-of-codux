@@ -1,5 +1,4 @@
 import "./login.css";
-import React from "react";
 import PexelsRrrinna2776108Jpg from "../../assets/pexels-rrrinna-2776108.jpg";
 
 export interface LoginProps {
@@ -10,16 +9,21 @@ export interface LoginProps {
 
 export const Login: React.FC<LoginProps> = ({ className = "", buttonText }) => (
   <form className="form">
+    <br />
+    <label></label>
+    <input type="text" />
+    <img
+      className="img"
+      style={{ borderRadius: "10px" }}
+      src={PexelsRrrinna2776108Jpg}
+    />
+    <br />
+    Password
+    <br />
+    <input type="text" />
+    <br />
     <label>Username</label>
     <br />
-    <input type="text" />
-    <br />
-    <label>Password</label>
-    <br />
-    <input type="text" />
-    <br />
-    <br />
     <input type="submit" value={buttonText} />
-    <img src={PexelsRrrinna2776108Jpg} className="img" style={{borderRadius: '10px'}}/>
   </form>
 );
