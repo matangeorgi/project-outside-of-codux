@@ -1,2 +1,68 @@
-.damn {
+.move {
+  position: static;
+  overflow: hidden;
+  z-index: inherit;
+  float: inherit;
+  margin: 1px;
+  padding: 1px;
+  font-size: 120px;
+  font-weight: initial;
+  font-style: italic;
+  font-variant: discretionary-ligatures;
+  direction: ltr;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  fill: revert;
+}
+
+.move:hover {
+  transform: rotate(360deg);
+  transition: 2s transform ease-in-out;
+}
+
+.above {
+  background-color: #c00404;
+  color: #c600ff;
+  margin: 110px;
+  padding: 100px;
+}
+.shimi {
+  color: #02261c;
+}
+.a {
+}
+.b {
+}
+.cd {
+}
+.e {
+}
+.f {
+}
+.g {
+}
+.h {
+}
+.j {
+}
+.k {
+}
+.l {
+}
+.saf {
+}
+.dfgsdf {
+}
+.gsfdhggf {
+}
+.hfg {
+}
+.hdgfhfghdfghdgfhfdghdfgjghdjhgkljlkfhgfhgjklfhgjklhfgj {
+}
+.lkgfdjhlkdgfjhlkfdgjhlkgdjfhlkjgdfkhjgdflkjhdlfgkhlkdfgjhlkdfgjhkjg {
+}
+.gfljhdfgkljhdlkfgjhdlfgkjhldfgkjhlgfkdjhlkdfjhldkfgjhdlfgkjhldgkfjhldkgfjhdflgkjhlgdfkjhldfgkjhkldgfhlkdfgjhlkdfgjhlkdfgjhldgfkjhldfgh {
+}
+.gfhgfhgf {
 }
