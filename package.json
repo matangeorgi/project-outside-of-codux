@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
-    "@wixc3/react-board": "^2.5.0"
+    "@wixc3/react-board": "^3.0.1"
   }
 }
